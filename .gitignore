@@ -1,0 +1,91 @@
+# Python cache and local environment
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE and OS metadata
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Raw data, derived feature tables, and spreadsheet exports
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+# Statistical traces, generated reports, and figure outputs
+*.nc
+*.netcdf
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.docx
+*Report.txt
+*report.txt
+*Metrics.txt
+*metrics.txt
+TracePlots_Diagnostics/
+Result/
+results/
+
+# Local datasets and prediction examples
+score_data/
+test_predict_photo/
+data/
+raw_data/
+dataset/
+datasets/
+
+# Local model checkpoints, downloaded weights, and third-party vendor repos
+dinov2-base-local/
+insightface-base-local/
+HivisionIDPhotos-master/
+models/
+**/dinov2-base-local/
+**/insightface-base-local/
+**/places365-resnet18-local/
+**/models/
+
+# Keep only project-specific StyleGAN helper scripts from the local e4e checkout.
+encoder4editing-main/**
+!encoder4editing-main/
+!encoder4editing-main/extract_styleGAN_features.py
+!encoder4editing-main/pca_stylegan_14.py
+!encoder4editing-main/patch_stylegan.py
+*.onnx
+*.pt
+*.pth
+*.bin
+*.dat
+*.safetensors
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+*.rar
+
+# Logs and temporary outputs
+*.log
+*.tmp
+tmp/
+temp/
