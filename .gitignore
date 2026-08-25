@@ -107,3 +107,9 @@ Picture_fig3/
 *results*/
 *Results*/
 feature_outputs/
+
+# Survey/statistical-analysis local outputs
+survey_statistics/code/
+survey_statistics/picture/
+survey_statistics/**/*.txt
+survey_statistics/**/*.png

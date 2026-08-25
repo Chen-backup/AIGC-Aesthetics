@@ -8,6 +8,7 @@ The public version keeps only data processing, feature extraction, dimensionalit
 
 - Face aesthetics: interpretable facial features, DINOv2, InsightFace, StyleGAN, null models, interpretable models, deep models, fusion models, and rater preference heterogeneity.
 - Landscape aesthetics: handcrafted, semantic, depth, DINOv2, Places365, StyleGAN, null/interpretable/deep/fusion models, and heterogeneity modeling.
+- Survey statistics: participant validity checks, demographic analysis, behavioral-variable analysis, and report-oriented statistical tests from the early data-analysis stage.
 - Benchmarks: PCA utilities and cross-validated ridge-style model comparison code where applicable.
 
 ## Main Files
@@ -21,6 +22,7 @@ The public version keeps only data processing, feature extraction, dimensionalit
 - `BYS_Fusion_28D_Model.py`: face interpretable + deep fusion model.
 - `run_ultimate_heterogeneity.py`: face rater-heterogeneity modeling.
 - `Landscape_Features_Model/`: landscape feature extraction and modeling code.
+- `survey_statistics/`: data cleaning and statistical analysis scripts for questionnaire, demographic, consumption, education, region, subscription, and evaluation-process variables.
 - `encoder4editing-main/`: only project-specific StyleGAN helper scripts are retained.
 
 ## Data Policy
@@ -51,4 +53,5 @@ Bayesian models use Bambi/PyMC and may require substantial CPU time and memory. 
 
 - Some scripts still contain local path assumptions from the original analysis environment.
 - Plotting scripts and generated result folders are kept out of the public GitHub version.
+- `survey_statistics/` excludes generated reports and image outputs; only analysis scripts are versioned.
 - The repository is intended as a code archive for methods and reproducibility, not as a complete runnable package.
