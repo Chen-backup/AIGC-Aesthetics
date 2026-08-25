@@ -89,3 +89,21 @@ encoder4editing-main/**
 *.tmp
 tmp/
 temp/
+
+# Local-only plotting and publication figure scripts
+draw_*.py
+plot_*.py
+generate_gamm_no_rug_no_text_panels.py
+Picture_code/
+Picture_fig3/
+**/Figures*/
+**/*Figures*/
+**/draw_*.py
+**/plot_*.py
+
+# Local-only result and output folders
+*result*/
+*Result*/
+*results*/
+*Results*/
+feature_outputs/
